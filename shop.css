@@ -1,0 +1,137 @@
+.pink{
+    color: #AE1C9A;;
+}
+.headertop{
+    border-bottom: 1px solid #AE1C9A;
+    background: rgba(174, 28, 154, 0.08);
+}
+.pinkbg{
+    background-color: #AE1C9A;
+     padding: 0px 5px;
+    top: -9px;
+    left: 20px;
+   }
+.lightpink{
+    background: rgba(174, 28, 154, 0.08);
+}
+.lightpink2{
+    background: #f8f8f8;
+}
+.pinkbtn{
+    background-color: #AE1C9A !important;
+}
+.footerm{
+    background-color: #AE1C9A !important;
+    position: relative !important;
+    top: 50px !important;
+}
+.show{
+    display: none;
+}
+.cart:hover .show{
+    display: block !important;
+    width: 300px;
+    left: -50px;
+    top: 26px;
+    border-top:  solid 2px #AE1C9A;
+    z-index: 200 !important;
+ 
+}
+
+.show2{
+    display: none;
+    width: fit-content;
+    padding: 10px;
+}
+body{
+    cursor: pointer !important;
+}
+.cart2:hover .show2{
+      top: 100px !important;
+  
+    display: block !important;
+ 
+  
+    z-index: 200 !important;
+ 
+}
+.scrolll{
+    height: 300px !important;
+    overflow-y: scroll !important;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: grey; 
+  }
+  .input-group{
+    max-width: 100% !important;
+    width: 40% !important;
+    margin: 0 auto !important; /* Center horizontally */
+    border: solid 2px #AE1C9A;
+}
+.modal{
+     height: 200px !important;
+}
+.dropdown-menu{
+    width: 300px !important;
+}
+
+.oneeeee {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    
+    
+    /* position: absolute; */
+}
+
+.about {
+    width: 1px !important;
+    height: 19.7rem !important;
+    background: rgba(174, 28, 154, 0.1294117647) !important;
+}
+.hiddenw{
+    overflow: hidden;
+}
+.card2:hover .card-img-top{
+    transform: scale(1.2) !important;
+    transition-duration: 1s !important;
+
+}
+
+footer{
+    background-image: url(img/footer-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center !important;
+}
+hr{
+    color: #AE1C9A !important;
+    height: 1px !important;
+    border: solid 5px #AE1C9A;
+}
+.footerm{
+    background-color: #AE1C9A !important;
+    position: relative !important;
+    top: 100px !important;
+}
+
